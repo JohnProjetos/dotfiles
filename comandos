@@ -1,3 +1,5 @@
 (Get-WmiObject -query 'select * from SoftwareLicensingService').OA3xOriginalProductKey
 
 wmic path SoftwareLicensingService get OA3xOriginalProductKey
+
+wmic baseboard get product,Manufacturer,version,serialnumber
